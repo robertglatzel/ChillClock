@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta Data -->
+		<meta charset="utf-8">
+		<meta name="author" content="Robert Glatzel">
+		<meta name="description" content="...">
+
+			<!-- For media Query -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
+			<!-- Latest compiled and minified CSS for bootstrap-->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Exo|Orbitron" rel="stylesheet">
+
+			<!-- Optional Bootstrap theme -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+			<!-- Title Here  -->
+		<title>Chill Clock</title>
+
+			<!-- Main CSS Here -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 id="clockInput"></h1>
+					<!-- adding in an audio player from youtube -->
+					<iframe class="youtubePlayer" width="1" height="1" src="https://www.youtube.com/embed/WHryvQQu9LU?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-sm-12">
+					<button id="change" onclick="changeBackground()">Click Me</button>
+				</div>
+		</div>
+
+
+
+		<!-- jQuery script comes BEFORE BOOTSTRAP -->
+
+		<!-- jQuery Script -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+		<!-- Bootstrap Core JavaScript -->
+   	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+   	<!-- Custom JavaScript -->
+   	<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+
+</html>

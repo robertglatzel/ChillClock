@@ -1,0 +1,43 @@
+body {
+	  background: url(../img/rainycity.gif) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
+  	font-size: 7.5vw;
+  	margin: auto;
+  	text-shadow: 0 0 15px #47d1d5;
+}
+
+
+button {
+	text-align: center;
+	position: fixed;
+  	top: 90%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 1.5vw;
+  	background: transparent;
+  	outline: none;
+  	color: white;
+  	border: white;
+}
+
+.youtubePlayer {
+	visibility: hidden;
+}
+
+iframe {
+	visibility: hidden;
+  margin-top: -40px;
+}
